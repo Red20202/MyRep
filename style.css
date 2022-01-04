@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    padding-top:550px;
+    text-align: center;
+}
+.profile{
+   border-radius: 50%; 
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background-color:#65e750;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: cursive;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: blue;
+}
+.parallax-inner{
+display: table-cell;
+vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background-color:Aqua;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    padding-right: 25px;
+    padding-left: 33px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif;
+    display: inline;
+}
+a{
+    text-decoration: beige;
+}
+.links:hover{
+font-size: 30px;
+text-decoration:  red underline;
+}
